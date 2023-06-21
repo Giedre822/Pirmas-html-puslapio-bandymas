@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandymas</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        img {
+            padding: 15px;
+            max-width: 100%;
+        }
+
+        header {
+            background-color: rgb(39, 25, 102);
+            padding: 10px 0 5px;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: end;
+        }
+
+        header nav ul a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            font-size: large;
+        }
+
+        header nav ul a:hover {
+            background-color: white;
+            color: rgb(143, 163, 68);
+        }
+
+
+        header.logo {
+            padding: 20px 0 0;
+            width: 5px;
+        }
+
+        .container {
+            width: 1140px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+
+        .container nav .box {
+            width: 1140px;
+            margin: 0 auto;
+        }
+
+        .pirmas {
+            background-color: #bbdefb;
+            padding: 15px;
+        }
+
+        .tvarka {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+
+            height: 50%;
+
+            gap: 45px;
+        }
+
+        .tvarkaRevers {
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+            background-color: #bbdefb;
+            height: 50%;
+            padding: 15px;
+            gap: 45px;
+        }
+
+        .tekstas {
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+            color: rgb(39, 25, 102);
+        }
+
+        .antraste {
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+            font-size: xx-large;
+            font-weight: bold;
+            color: rgb(39, 25, 102);
+        }
+
+        .foto {
+            padding: 30px;
+        }
+
+        footer {
+            background-color: rgb(39, 25, 102);
+        }
+
+        footer nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        footer nav ul a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+            font-size: large;
+        }
+
+        footer nav ul a:hover {
+            background-color: white;
+            color: rgb(143, 163, 68);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <img src="paukstis_logo2.png" alt="logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li> <a href="#pagrindinis">Pagrindinis</a></li>
+                    <li> <a href="#apie">Apie mus</a></li>
+                    <li><a href="#ka">Ką mes gaminame</a></li>
+                    <li><a href="#kur">Kur randamės</a></li>
+                    <li><a href="#kainos">Kainos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="box">
+
+            <div class="tvarka">
+                <div class="antraste" id="pagrindinis">Pagrindinis</div>
+                <div class="tekstas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt
+                    doloremque laudantium non fuga quas consequatur magnam minima quibusdam rem et ut ad voluptatibus
+                    vel officiis nesciunt blanditiis dignissimos, sint, id iste natus eaque provident molestias numquam!
+                    Perspiciatis sunt mollitia itaque doloremque nesciunt doloribus, possimus voluptates quis. Molestias
+                    expedita quas perspiciatis rerum quisquam. Dicta eveniet, similique illo maiores modi excepturi, qui
+                    pariatur fugiat dolores officiis quo ratione quam officia consequatur facere hic. Enim, placeat
+                    laboriosam. Veritatis ipsa amet neque qui voluptatem. Quaerat unde necessitatibus fuga nesciunt
+                    consequuntur omnis natus optio aliquid ea quis beatae doloremque dolores fugiat, nostrum eligendi
+                    ipsam.</div>
+                <div class="foto"><img src="foto_durys1.jpg" alt="foto"></div>
+            </div>
+            <div class="tvarkaRevers">
+                <div class="antraste" id="apie">Apie mus</div>
+                <div class="tekstas">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aliquam sint
+                    corrupti libero. Beatae natus odit consectetur soluta id, voluptatem corporis distinctio aliquam ut!
+                    Nihil nesciunt fuga quam obcaecati magnam?</div>
+                <div class="foto"><img src="foto_durys1.jpg" alt="foto"></div>
+            </div>
+            <div class="tvarka">
+                <div class="antraste" id="ka">Ką mes gaminame</div>
+                <div class="tekstas">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem repudiandae ea
+                    laudantium facere molestiae nulla vero atque aperiam. Possimus libero consequatur officiis placeat.
+                    Est voluptatibus laboriosam non facilis reiciendis! Modi voluptatibus, harum suscipit ut molestiae
+                    necessitatibus at ducimus magni est!</div>
+                <div class="foto"><img src="foto_durys1.jpg" alt="foto"></div>
+            </div>
+            <div class="tvarkaRevers">
+                <div class="antraste" id="kur">Kur randamės</div>
+                <div class="tekstas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ullam maiores
+                    aspernatur ducimus dicta necessitatibus, porro cumque laboriosam quaerat eum.</div>
+                <div class="foto"><img src="foto_durys1.jpg" alt="foto"></div>
+            </div>
+            <div class="tvarka">
+                <div class="antraste" id="kainos">Kainos</div>
+                <div class="tekstas"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam autem, dolorem
+                    natus doloremque, officia in dicta sint assumenda eos, maiores quae provident deserunt nulla iste
+                    aliquid quia. Expedita debitis optio repudiandae. Consectetur culpa sequi, consequatur totam veniam
+                    mollitia asperiores, id animi optio modi voluptatibus et porro eaque ratione praesentium alias quis
+                    nam veritatis, dignissimos suscipit provident. Esse repellendus harum repudiandae. Nihil neque ea
+                    excepturi magni officiis et possimus perspiciatis ducimus nisi recusandae ratione cumque molestias
+                    quaerat in, explicabo repellendus odio?</div>
+                <div class="foto"><img src="foto_durys1.jpg" alt="foto"></div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li> <a href="">Privatumo politika</a></li>
+                    <li> <a href="">Prekės ženklas</a></li>
+                    <li><a href="">Spaudai</a></li>
+                    <li><a href="">Mūsų draugai</a></li>
+                    <li><a href="">Kontaktai</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
